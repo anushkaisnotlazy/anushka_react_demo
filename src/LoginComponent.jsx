@@ -7,7 +7,7 @@ class LoginComponent extends Component{
         return(
             <div>
                 <h1>
-                    Anushka looks cool when Logs In to her app
+                    Anushka looks cool when she Logs In to her app
                 </h1>
 
 

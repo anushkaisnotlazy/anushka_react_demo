@@ -3,6 +3,7 @@ import './App.css';
 import ClassComponent from './ClassComponent';
 import FunctionalComponent from './FunctionalComponent';
 import LoginComponent from './LoginComponent';
+import Test from './Test';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <FunctionalComponent></FunctionalComponent>
       <FunctionalComponent/>
       <LoginComponent/>
+      <Test/>
     </div>
   );
 }
