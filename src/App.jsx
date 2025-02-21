@@ -4,6 +4,7 @@ import ClassComponent from './ClassComponent';
 import FunctionalComponent from './FunctionalComponent';
 import LoginComponent from './LoginComponent';
 import Test from './Test';
+import EventBinding from './EventBinding';
 
 function App() {
   return (
@@ -23,11 +24,12 @@ function App() {
         </a>
       </header>
       <h1 className='sleeping'>Welcome to Anushka's react app ;) </h1>
-      <ClassComponent></ClassComponent>
+      {/* {/* <ClassComponent></ClassComponent>
       <FunctionalComponent></FunctionalComponent>
       <FunctionalComponent/>
       <LoginComponent/>
-      <Test/>
+      <Test/> */}
+      <EventBinding/>
     </div>
   );
 }
